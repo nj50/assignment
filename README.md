@@ -4,7 +4,10 @@
 
 ### Steps to execute project:
 
-1. Run command "gulp serve" on /assignment/  project.
-	It will Launch the app If not
+*  Run command on /assignment/  project.   
 
-2. Open "http://localhost:8082/#/" to view.
+" npm install "   
+" bower install "  
+" gulp serve"  
+
+*  Open " http://localhost:8082/#/ " to Preview.
