@@ -1,0 +1,6 @@
+/js/lib/
+# Ignore the Node Modules folder
+/node_modules
+# Ignore CSS & Map File
+*.css
+*.map

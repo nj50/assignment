@@ -1,0 +1,28 @@
+{
+  "name": "weatherApp",
+  "description": "angular-weather-app",
+  "main": "index.js",
+  "authors": [
+    "namit"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "weather"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap-css-only": "^3.3.6"
+  }
+}

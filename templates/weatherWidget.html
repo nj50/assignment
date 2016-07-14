@@ -1,0 +1,18 @@
+<div>
+	<ul class="list-inline text-center">
+		<li>
+			<form novalidate name="userForm" ng-submit="wctrl.getWeather()">
+				<div class='search_area'>
+					<div class="" ng-class="{'has-error':userForm.city.$invalid&&userForm.city.$dirty&&userForm.$submitted}">
+						<input type="text" name='txtCity' class="form-control" placeholder="City name"  ng-model="wctrl.weather.city" required="required"> 
+					</div>
+					<div class=''>
+						<button ng-disabled="userForm.$invalid" type="submit" class="btn btn-primary btn-sm">Submit</button>
+					</div>
+					<span class="help-block text-left"  ng-show="userForm.txtCity.$error.required &&userForm.txtCity.$touched">Please enter City Name!</span>
+				</div>
+			</form>
+		</li>
+	</ul>
+	<div ui-view="main"></div>
+</div>

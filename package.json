@@ -1,0 +1,29 @@
+{
+  "name": "WeatherPOC",
+  "version": "0.0.1",
+  "description": "angular-weather-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nj50/assignment.git"
+  },
+  "keywords": [
+    "angular",
+    "weather"
+  ],
+  "author": "namit",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.1.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
