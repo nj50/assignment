@@ -4,3 +4,5 @@
 # Ignore CSS & Map File
 *.css
 *.map
+
+.DS_Store
